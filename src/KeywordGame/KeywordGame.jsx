@@ -60,7 +60,7 @@ const KeywordGame = () => {
             className={KeywordStyle[`box${index + 1}`]}
             onClick={() => handleBoxClick(index + 1)}
           >
-            {currentBox === index + 1 && isVisible ? currentBox : ""}
+            {currentBox === index + 1 && isVisible ? "HIT" : ""}
           </div>
         ))}
 
